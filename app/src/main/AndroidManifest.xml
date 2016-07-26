@@ -15,7 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegularActivity" />
+        <activity android:name=".RegularOnLandActivity" />
         <activity android:name=".ConvoyActivity"></activity>
     </application>
 

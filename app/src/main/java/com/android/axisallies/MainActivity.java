@@ -14,17 +14,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Get the Buttons
-        final Button btRegular = (Button) findViewById(R.id.btRegular);
+        final Button btRegularOnLand = (Button) findViewById(R.id.btRegularOnLand);
+        final Button btRegularOnSea = (Button) findViewById(R.id.btRegularOnSea);
         final Button btAmphibious = (Button) findViewById(R.id.btAmphibious);
         final Button btConvoy = (Button) findViewById(R.id.btConvoy);
         final Button btBombing = (Button) findViewById(R.id.btBombing);
 
-        btRegular.setOnClickListener(new View.OnClickListener() {
+        btRegularOnLand.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Perform action on click
                 // Go to Regular Battle Activity
-                startActivity(new Intent(MainActivity.this, RegularActivity.class));
+                startActivity(new Intent(MainActivity.this, RegularOnLandActivity.class));
             }
         });
     }
