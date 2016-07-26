@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Axis&amp;Allies</string>
+
+    <!-- Buttons on MainActivity -->
+    <string name="btRegular">Regular Battle</string>
+    <string name="btAmphibious">Amphibious Attack (Landing)</string>
+    <string name="btBombing">Bombing Raid</string>
+    <string name="btConvoy">Convoy Disruption</string>
+
+    <!-- ConvoyActivity -->
+    <string name="convoy_instruction">Convoy Disruption</string>
+</resources>
