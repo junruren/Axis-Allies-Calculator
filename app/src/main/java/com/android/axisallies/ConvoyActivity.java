@@ -45,9 +45,8 @@ public class ConvoyActivity extends AppCompatActivity {
     }
 
     void calculateConvoy(int num2, int num1) {
-        // Reset the DataHolder
-        DataHolder.convoyResultIPC = 0;
-        DataHolder.convoyResultDetail = "";
+        // Clear the Results and Details
+        DataHolder.clearConvoy();
 
         // Add dices into an ArrayList
         ArrayList<Dice> dices = new ArrayList<Dice>();

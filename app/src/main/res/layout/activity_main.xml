@@ -39,16 +39,9 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btRegularOnLand"
-            android:id="@+id/btRegularOnLand"
-            android:layout_marginTop="16dp" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btRegularOnSea"
-            android:id="@+id/btRegularOnSea"
-            android:layout_marginTop="16dp" />
+            android:text="@string/btBombing"
+            android:id="@+id/btBombing"
+            android:layout_marginTop="17dp" />
 
         <Button
             android:layout_width="match_parent"
@@ -60,9 +53,16 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btBombing"
-            android:id="@+id/btBombing"
-            android:layout_marginTop="17dp" />
+            android:text="@string/btRegularOnLand"
+            android:id="@+id/btRegularOnLand"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btRegularOnSea"
+            android:id="@+id/btRegularOnSea"
+            android:layout_marginTop="16dp" />
 
         <Button
             android:layout_width="match_parent"

@@ -47,8 +47,7 @@ public class ConvoyResultActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Clear the Results and Details
-                DataHolder.convoyResultDetail = "";
-                DataHolder.convoyResultIPC = 0;
+                DataHolder.clearConvoy();
                 // Return to the MainActivity
                 startActivity(new Intent(ConvoyResultActivity.this, MainActivity.class));
             }
