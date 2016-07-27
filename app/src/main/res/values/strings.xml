@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Axis&amp;Allies</string>
 
+    <!-- SHARED -->
+    <string name="btBack2Main">Back to Main Menu</string>
+    <string name="btShowDetail">Show Details</string>
+
     <!-- MainActivity -->
     <string name="textTitle">Axis &amp; Allies 1940 Global</string>
     <string name="textMainInstruction">Please select a mode</string>
@@ -11,8 +15,15 @@
     <string name="btConvoy">Convoy Disruption</string>
 
     <!-- ConvoyActivity -->
+    <string name="convoy_title">Convoy Disruption</string>
     <string name="convoy_instruction">In your turn, check if any of your Convoy sea zone has any enemy warship. If yes, Convoy Disruption happens</string>
     <string name="textOneDice"># of Battleships, Cruisers, and Destroyers: </string>
     <string name="textTwoDices"># of Submarines and carrier-based air units: </string>
     <string name="btConvoyCalculation">Calculate!</string>
+
+    <!-- ConvoyResultActivity -->
+    <string name="convoy_result_title">Convoy Disruption Result</string>
+    <string name="convoy_result_instruction">Suppose X=Total IPCs Lost and Y=Total IPCs available in adjacent territories. The final IPC lost is: Min(X,Y)</string>
+    <string name="label_ipclost">Total IPCs Lost: </string>
+
 </resources>

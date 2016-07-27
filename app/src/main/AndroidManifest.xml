@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegularOnLandActivity" />
-        <activity android:name=".ConvoyActivity"></activity>
+        <activity android:name=".ConvoyActivity" />
+        <activity android:name=".ConvoyResultActivity"></activity>
     </application>
 
 </manifest>

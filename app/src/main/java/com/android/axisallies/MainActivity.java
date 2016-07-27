@@ -28,5 +28,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, RegularOnLandActivity.class));
             }
         });
+
+        btConvoy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Perform action on click
+                // Go to Convoy Disruption Activity
+                startActivity(new Intent(MainActivity.this, ConvoyActivity.class));
+            }
+        });
     }
 }

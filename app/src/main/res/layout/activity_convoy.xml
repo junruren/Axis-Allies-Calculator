@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Convoy Disruption"
+        android:text="@string/convoy_title"
         android:id="@+id/textView3"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
@@ -37,7 +37,7 @@
 
         <GridLayout
             android:layout_width="match_parent"
-            android:layout_height="188dp"
+            android:layout_height="0dp"
             android:rowCount="4"
             android:columnCount="3"
             android:layout_weight="0.99">
